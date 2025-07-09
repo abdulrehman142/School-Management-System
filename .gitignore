@@ -27,6 +27,16 @@ yarn-error.log
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+# Ignore dependencies and build output
+node_modules/
+dist/
+
+# Ignore environment and log files
+.env
+*.log
+
+# Ignore macOS metadata
+.DS_Store
 
 # Miscellaneous
 /.angular/cache
